@@ -17,7 +17,7 @@ const About = () => {
               </p>
               
               <p className="text-lg text-gray-600 leading-relaxed">
-                My journey includes developing impactful applications like EcoSpot (environmental awareness platform) and VocalizeIt (Text-to-Speech application), along with valuable industry experience at SAMSAN Technische Labs and ETHNUS. I'm particularly focused on Java Data Structures and Algorithms, where I excel at creating efficient, optimized solutions to complex problems.
+                My journey includes developing impactful applications like EcoSpot (environmental awareness platform) and VocalizeIt (Text-to-Speech application), along with valuable industry experience at SAMSAN Technische Labs and ETHNUS. I excel at problem-solving and algorithm optimization, with a particular focus on Java development where I create efficient, scalable solutions to complex computational challenges.
               </p>
               
               <div className="flex flex-wrap gap-4">
@@ -31,7 +31,7 @@ const About = () => {
                   MERN Stack
                 </span>
                 <span className="bg-orange-100 text-orange-800 px-4 py-2 rounded-full text-sm font-medium">
-                  Java DSA
+                  Java
                 </span>
               </div>
             </div>
