@@ -31,7 +31,7 @@ const Experience = () => {
   const leadership = {
     title: "Vice-Chairperson",
     organization: "ASHRAE Chapter, VIT",
-    duration: "Feb 2024 – Ongoing",
+    duration: "Feb 2024 – Feb 2025",
     description: "Leading initiatives in the ASHRAE chapter, promoting engineering excellence and professional development among students."
   };
 

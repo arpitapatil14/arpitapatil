@@ -17,7 +17,7 @@ const About = () => {
               </p>
               
               <p className="text-lg text-gray-600 leading-relaxed">
-                My journey includes developing impactful applications like EcoSpot (environmental awareness platform) and VocalizeIt (Text-to-Speech application), along with valuable industry experience at SAMSAN Technische Labs and ETHNUS.
+                My journey includes developing impactful applications like EcoSpot (environmental awareness platform) and VocalizeIt (Text-to-Speech application), along with valuable industry experience at SAMSAN Technische Labs and ETHNUS. I'm particularly focused on Java Data Structures and Algorithms, where I excel at creating efficient, optimized solutions to complex problems.
               </p>
               
               <div className="flex flex-wrap gap-4">
@@ -29,6 +29,9 @@ const About = () => {
                 </span>
                 <span className="bg-green-100 text-green-800 px-4 py-2 rounded-full text-sm font-medium">
                   MERN Stack
+                </span>
+                <span className="bg-orange-100 text-orange-800 px-4 py-2 rounded-full text-sm font-medium">
+                  Java DSA
                 </span>
               </div>
             </div>
@@ -54,7 +57,7 @@ const About = () => {
                         Vellore, Tamil Nadu
                       </span>
                     </div>
-                    <p className="text-sm text-gray-600 mt-1">CGPA: 8.51</p>
+                    <p className="text-sm text-gray-600 mt-1">CGPA: 8.56</p>
                   </div>
                   
                   <div className="border-l-4 border-blue-500 pl-4">
@@ -71,6 +74,22 @@ const About = () => {
                       </span>
                     </div>
                     <p className="text-sm text-gray-600 mt-1">Percentage: 93.83%</p>
+                  </div>
+                  
+                  <div className="border-l-4 border-green-500 pl-4">
+                    <h4 className="font-semibold text-gray-800">High School</h4>
+                    <p className="text-green-600 font-medium">R J E M High School</p>
+                    <div className="flex items-center gap-4 text-sm text-gray-600 mt-1">
+                      <span className="flex items-center gap-1">
+                        <Calendar size={14} />
+                        Graduated 2019
+                      </span>
+                      <span className="flex items-center gap-1">
+                        <MapPin size={14} />
+                        Nashik, Maharashtra
+                      </span>
+                    </div>
+                    <p className="text-sm text-gray-600 mt-1">Percentage: 91.60%</p>
                   </div>
                 </div>
               </div>
