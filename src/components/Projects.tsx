@@ -1,5 +1,5 @@
 
-import { ExternalLink, Github, Globe, Users, Zap, MapPin } from 'lucide-react';
+import { ExternalLink, Github, Globe, Users, Zap, MapPin, Shield, Smartphone, Glasses } from 'lucide-react';
 
 const Projects = () => {
   const projects = [
@@ -30,6 +30,45 @@ const Projects = () => {
       icon: <Zap size={24} />
     },
     {
+      title: "Textura",
+      description: "A texture generation tool that creates high-quality seamless textures for 3D models and game development, offering customization options and preset templates.",
+      technologies: ["JavaScript", "WebGL", "HTML5", "CSS3", "Canvas API"],
+      achievements: [
+        "Implemented procedural texture generation algorithms",
+        "Created intuitive UI for texture customization",
+        "Added export functionality for various file formats"
+      ],
+      github: "https://github.com/arpitapatil14/Textura",
+      color: "from-purple-500 to-pink-500",
+      icon: <Smartphone size={24} />
+    },
+    {
+      title: "Transaction Fraud Detection",
+      description: "A machine learning system that identifies potentially fraudulent financial transactions using advanced algorithms and real-time analysis.",
+      technologies: ["Python", "TensorFlow", "Scikit-learn", "Pandas", "Flask"],
+      achievements: [
+        "95% accuracy in detecting fraudulent transactions",
+        "Reduced false positives by 40%",
+        "Real-time transaction monitoring capabilities"
+      ],
+      github: "https://github.com/arpitapatil14/Transaction-Fraud-Detection",
+      color: "from-red-500 to-orange-500",
+      icon: <Shield size={24} />
+    },
+    {
+      title: "Apple Vision Pro Clone",
+      description: "A frontend clone of Apple's Vision Pro website showcasing advanced CSS animations, 3D effects, and responsive design principles.",
+      technologies: ["React.js", "Three.js", "GSAP", "CSS3", "HTML5"],
+      achievements: [
+        "Implemented complex parallax scrolling effects",
+        "Created realistic 3D product visualizations",
+        "Built fully responsive design across all device sizes"
+      ],
+      github: "https://github.com/arpitapatil14/Apple-Vision-Pro-Clone",
+      color: "from-gray-700 to-gray-900",
+      icon: <Glasses size={24} />
+    },
+    {
       title: "Pet Reunite Hub",
       description: "A full-stack MERN application designed to help reunite lost pets with their owners through real-time updates and notification systems.",
       technologies: ["React.js", "Node.js", "Express.js", "MongoDB", "RESTful APIs"],
@@ -53,7 +92,7 @@ const Projects = () => {
           </h2>
           <p className="text-xl text-gray-600 text-center mb-12 max-w-3xl mx-auto">
             Here are some of my recent projects that showcase my skills in full-stack development, 
-            problem-solving, and creating impactful user experiences.
+            machine learning, and creating impactful user experiences.
           </p>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
