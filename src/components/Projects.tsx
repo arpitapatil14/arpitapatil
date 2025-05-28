@@ -31,12 +31,12 @@ const Projects = () => {
     },
     {
       title: "Textura",
-      description: "A texture generation tool that creates high-quality seamless textures for 3D models and game development, offering customization options and preset templates.",
-      technologies: ["JavaScript", "WebGL", "HTML5", "CSS3", "Canvas API"],
+      description: "A rich text editor application similar to WordPad that provides comprehensive text formatting capabilities including bold, italic, uppercase, lowercase, capitalize, clear text, and text alignment features for enhanced document editing.",
+      technologies: ["JavaScript", "HTML5", "CSS3", "DOM Manipulation", "Text Processing"],
       achievements: [
-        "Implemented procedural texture generation algorithms",
-        "Created intuitive UI for texture customization",
-        "Added export functionality for various file formats"
+        "Implemented comprehensive text formatting options",
+        "Created intuitive UI for text manipulation and alignment",
+        "Added real-time text transformation capabilities"
       ],
       github: "https://github.com/arpitapatil14/Textura",
       color: "from-purple-500 to-pink-500",

@@ -1,4 +1,3 @@
-
 import { Github, Linkedin, Mail, Phone, Code } from 'lucide-react';
 
 const Hero = () => {
@@ -19,7 +18,7 @@ const Hero = () => {
           </h1>
           
           <p className="text-xl md:text-2xl text-purple-200 mb-6 font-light">
-            MERN Full Stack Developer & Cloud Enthusiast
+            Software Engineer | MERN Full Stack Developer & Cloud Enthusiast
           </p>
           
           <p className="text-lg text-gray-300 mb-8 max-w-2xl mx-auto leading-relaxed">
