@@ -119,7 +119,7 @@ const Skills = () => {
           {/* Stats */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-12">
             <div className="text-center">
-              <div className="text-3xl font-bold text-purple-600 mb-2">8.56</div>
+              <div className="text-3xl font-bold text-purple-600 mb-2">8.59</div>
               <div className="text-gray-600 text-sm">CGPA</div>
             </div>
             <div className="text-center">
