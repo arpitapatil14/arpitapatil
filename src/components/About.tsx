@@ -1,4 +1,3 @@
-
 import { GraduationCap, MapPin, Calendar } from 'lucide-react';
 
 const About = () => {
@@ -57,7 +56,7 @@ const About = () => {
                         Vellore, Tamil Nadu
                       </span>
                     </div>
-                    <p className="text-sm text-gray-600 mt-1">CGPA: 8.56</p>
+                    <p className="text-sm text-gray-600 mt-1">CGPA: 8.59</p>
                   </div>
                   
                   <div className="border-l-4 border-blue-500 pl-4">
